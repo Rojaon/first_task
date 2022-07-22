@@ -1,0 +1,34 @@
+
+Part1:
+ESP32 chip definition
+Go to port manager website 
+take the first link
+Open the Arduino software
+Click on file
+Choose Preferences
+Put the link in "additional boards manager urls" 
+Go tools
+Board
+Boards manager
+write at type > Esp32
+Click install
+Start Installation
+Close the Arduino software and then open it again
+
+
+Part 2:
+How to Start the chip?
+Open Arduino software
+Write your code, ex:blinking code
+Make sure of some things:
+Go to tools > boardo > "esp32 dev module"
+Go to tools > upload speed > "921600"
+Go to tools > CPU frequency > 240 MHz
+Go to tools >" com# "you need to make sure it's the same com number 
+The rest is like default
+Start connecting the pins in the chip with the code and where it's input or output 
+
+How to upload the code to the chip:
+Click on upload in the software and keep pressing the one-zero-zero button 
+Press the reset button once
+The chip ready.
